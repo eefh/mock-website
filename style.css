@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+.hero, .footer {
+    background-color: #1F2937;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.header {
+    padding: 28px;
+    display:flex;
+    justify-content: space-around;
+}
+a {
+    text-decoration: none;
+    color: white;
+    margin: 0px 10px 0px 10px;
+}
+.title {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.options {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight:bolder;
+}
+.top-content {
+    display: flex;
+    justify-content: center;
+    padding:100px;
+}
+p  {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.top-text {
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+button {
+    width: 150px;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    padding:8px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+}
+h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    margin: 60px;
+} 
+.middle {
+    display: flex;
+    flex-direction:column;
+}
+img {
+    border:solid #3882F6 6px;
+    border-radius: 20px;
+}
+.images {
+    width: 200px;
+    text-align: center;
+}
+.images > p {
+    color:#1F2937;
+}
+.img-wrap {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 100px 100px 100px;
+}
+.quote  {
+    background-color: #E5E7EB;
+    padding:100px 500px 100px 500px;
+}
+h3 {
+    font-size: 36px;
+    font-weight: 100;
+}
+.quote > h4 {
+    text-align: right;
+    font-size: 24px;
+    padding:20px;
+}
+
+.qta {
+    background-color: #F9FAF8;
+
+}
+.qta-wrap  {
+    background-color: #3882F6;
+    margin:150px 250px 150px 250px;
+    padding: 80px  180px 80px 180px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 40px;
+}
+.text > h4 {
+    font-size: 30px;
+    color:#E5E7EB;
+}
+.text > p {
+    font-size: 24px;
+}
+.qta-wrap > button {
+    border: solid  #E5E7EB;
+}
+
+.footer > p {
+    text-align: center;
+    font-size: 20px;
+    padding: 40px;
+}
